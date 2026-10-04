@@ -1,13 +1,13 @@
 {
     "binary_search": {},
     "histogram": {
-        "histogram_bins": 70,
+        "histogram_bins": 50,
         "smoothing_sigma": 2.0,
         "W": 3.0,
-        "peak_prominence": 0.01,
+        "peak_prominence": 0.02,
         "peak_distance": 3,
-        "training_mae_ms": 425.23,
-        "training_rmse_ms": 620.93,
+        "training_mae_ms": 25.0,
+        "training_rmse_ms": 34.1,
         "feature_representation": "log_STE + spectral_centroid"
     },
     "simple_statistics": {}
