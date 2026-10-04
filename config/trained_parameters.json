@@ -1,5 +1,14 @@
 {
-    "binary_search": {},
+    "binary_search": {
+        "kind": "MA",
+        "use_log": false,
+        "smooth_len": 9,
+        "T": 0.012980917363347982,
+        "sep": 0.07633437116110527,
+        "hyst": 0.0,
+        "expand": 0,
+        "min_speech_ms": 50
+    },
     "histogram": {
         "histogram_bins": 50,
         "smoothing_sigma": 2.0,
