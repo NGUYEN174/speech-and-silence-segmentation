@@ -1,0 +1,28 @@
+# Dataset files - do NOT commit lecturer's WAV/LAB files
+data/TinHieuHuanLuyen/*
+data/TinHieuKiemThu/*
+!data/TinHieuHuanLuyen/.gitkeep
+!data/TinHieuKiemThu/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+# Histogram algorithm package
