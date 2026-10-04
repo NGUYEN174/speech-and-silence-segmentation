@@ -65,7 +65,8 @@ def merge_short_silences(mask, frame_times, min_silence_ms=None):
         if s_clamped >= len(frame_times) or e_clamped < 0:
             continue
         
-        silence_duration = frame_times[e_clamped] - frame_times[s_clamped]
+        frame_shift_s = np.median(np.diff(frame_times))
+        silence_duration = (e - s) * frame_shift_s
         
         if silence_duration < min_silence_s:
             # Merge: set all silence frames to speech

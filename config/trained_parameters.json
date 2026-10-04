@@ -7,7 +7,7 @@
         "peak_prominence": 0.02,
         "peak_distance": 3,
         "training_mae_ms": 25.0,
-        "training_rmse_ms": 34.1,
+        "training_rmse_ms": 31.92,
         "feature_representation": "log_STE + spectral_centroid"
     },
     "simple_statistics": {}
