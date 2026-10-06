@@ -118,7 +118,7 @@ class HistogramAlgorithm(BaseAlgorithm):
         ste = calculate_ste(frames)
         log_ste = calculate_log_ste(ste)
         spectral_centroid = calculate_spectral_centroid(frames, fs)
-        
+
         # Step 3a: Histogram thresholding for energy (log STE)
         energy_diag = compute_histogram_threshold(
             log_ste, histogram_bins, smoothing_sigma, W,
