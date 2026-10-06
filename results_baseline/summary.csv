@@ -1,5 +1,0 @@
-Algorithm,TestFile,MAE_ms,RMSE_ms,NumDetectedBoundaries,NumGroundTruthBoundaries,NumMatched,NumMissing,NumExtra,BoundaryErrors_ms
-Histogram,phone_F2.wav,579.38,677.37,8,14,8,6,0,"[52.5, 127.5, 307.5, 632.5, 1007.5, 862.5, 972.5, 672.5]"
-Histogram,phone_M2.wav,895.83,910.15,6,14,6,8,0,"[1112.5, 622.5, 842.5, 802.5, 1022.5, 972.5]"
-Histogram,studio_F2.wav,557.49,786.65,2,10,2,8,0,"[2.49, 1112.49]"
-Histogram,studio_M2.wav,605.0,843.31,2,10,2,8,0,"[17.51, 1192.49]"
