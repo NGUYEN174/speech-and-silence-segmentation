@@ -64,7 +64,7 @@ def train_simple_statistics(training_files, training_labs):
             
         for t, ste_val in zip(feature_times, ste_norm):
             is_speech = False
-            for seg in lab_data["segments"]:
+            for seg in lab_data:
                 if seg["start"] <= t <= seg["end"]:
                     if seg["label"] == "speech":
                         is_speech = True
